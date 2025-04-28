@@ -42,7 +42,6 @@ struct CryptoListView: View {
             .navigationTitle("CryptoAI 🤖")
         }
     }
-
 }
 
 struct CryptoRowView: View {
