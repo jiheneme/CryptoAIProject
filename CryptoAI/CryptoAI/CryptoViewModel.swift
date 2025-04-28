@@ -41,6 +41,8 @@ class CryptoViewModel: ObservableObject {
             }
         }.resume()
     }
+
+    // MARK Helper Function 
      func formattedDate(date: Date) -> String {
         let formatter = DateFormatter()
         formatter.dateStyle = .short
