@@ -35,10 +35,10 @@ class CryptoViewModel: ObservableObject {
                         self.lastUpdated = Date()
                     }
                 } catch {
-                    print("Decoding error: \(error)")
+                    print("Decoding error : \(error)")
                 }
             } else if let error = error {
-                print("Network error: \(error)")
+                print("Network error : \(error)")
             }
         }.resume()
     }
