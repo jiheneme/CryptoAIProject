@@ -5,7 +5,7 @@ This project displays some crypto prices in real time.
 
 
 # Technical specs
-This project use SwiftUI and Combine
-Min supported version iOS 15+
+This project uses SwiftUI and Combine
+Minimum supported version is iOS 15+
 
 
